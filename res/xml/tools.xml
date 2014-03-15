@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceScreen android:title="CPU Control" android:key="cpu_settings" android:summary="Adjust clock frequency, governor and I/O schedulers">
+            <intent android:targetPackage="it.sineo.android.noFrillsCPU" android:action="android.intent.action.MAIN" android:targetClass="it.sineo.android.noFrillsCPU.activity.MainActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="CPU Spy" android:key="cpu_state" android:summary="View CPU activity and usage">
+            <intent android:targetPackage="com.bvalosek.cpuspy" android:action="android.intent.action.MAIN" android:targetClass="com.bvalosek.cpuspy.ui.HomeActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="PIE Control" android:summary="Straight from AOSPA">
+            <intent android:targetPackage="com.cyanogenmod.cmparts" android:action="android.intent.action.MAIN" android:targetClass="com.cyanogenmod.cmparts.activities.UIPieActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Equalizers" android:key="dsp_green" android:summary="Gives Your Phone An Ear Thundering Effect">
+            <intent android:targetPackage="com.bel.android.dspmanager" android:action="android.intent.action.MAIN" android:targetClass="com.bel.android.dspmanager.activity.DSPManager" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Terminal Emulator" android:key="term" android:summary="">
+        <intent android:targetPackage="jackpal.androidterm" android:action="android.intent.action.MAIN" android:targetClass="jackpal.androidterm.Term" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="System App Installer" android:key="app_system" android:summary="Install Apps Directly In System">
+            <intent android:targetPackage="com.traber.systemappsinstaller" android:action="android.intent.action.MAIN" android:targetClass="com.traber.systemappsinstaller.SystemAppsInstallerActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="App Switcher" android:key="app_switcher" android:summary="Play Multitasking">
+            <intent android:targetPackage="com.schiztech.swapps" android:action="android.intent.action.MAIN" android:targetClass="com.schiztech.swapps.SettingsActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Battery Calibration" android:key="batt_cal" android:summary="Calibrate your Battery">
+            <intent android:targetPackage="com.nema.batterycalibration" android:action="android.intent.action.MAIN" android:targetClass="com.nema.batterycalibration.myMain" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Music Hub" android:key="ic_stats" android:summary="Enjoy Your Music">
+            <intent android:targetPackage="com.android.music" android:action="android.intent.action.MAIN" android:targetClass="com.android.music.MusicBrowserActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Samsung Secret Codes" android:summary="Some Useful Codes">
+            <intent android:targetPackage="com.creed.secretcode" android:action="android.intent.action.MAIN" android:targetClass="com.creed.secretcode.MainActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Screen Adjuster" android:summary="RenderFX Effect ">
+            <intent android:targetPackage="com.netmanslab.sa" android:action="android.intent.action.MAIN" android:targetClass="com.netmanslab.sa.ScreenAdjusterActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="PLATLOGO" android:summary="Play With KitKat Easter Egg :) ">
+            <intent android:targetPackage="com.dc.easteregg" android:action="android.intent.action.MAIN" android:targetClass="com.dc.easteregg.PlatLogoActivity" />
+        </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Addons" >
+        <PreferenceScreen android:title="Carrier Name Changer">
+            <intent android:action="android.intent.action.VIEW" android:data="http://fs1.d-h.st/download/00044/YqR/CarrierName.apk" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Chainfire 3D / CF3D">
+            <intent android:action="android.intent.action.VIEW" android:data="http://fs1.d-h.st/download/00044/EzV/eu.chainfire.cf3d-1.apk" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Network Unlocker">
+            <intent android:action="android.intent.action.VIEW" android:data="http://fs1.d-h.st/download/00044/foJ/NetworkUnlocker.apk" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Firewall">
+            <intent android:action="android.intent.action.VIEW" android:data="http://fs1.d-h.st/download/00044/CjL/Firewall.apk" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Google Now">
+            <intent android:action="android.intent.action.VIEW" android:data="http://fs1.d-h.st/download/00031/bIq/Google_Now_Speak.apk" />
+        </PreferenceScreen>
+    </PreferenceCategory> 
+    <PreferenceCategory android:title="ROM" >
+        <PreferenceScreen android:enabled="true" android:title="ROM Thread" >
+        <PreferenceScreen android:title="Rom Thread" android:summary="Tap To Visit XDA Thread">
+            <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/showthread.php?p=43311475" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:enabled="true" android:title="ROM Details">
+        <PreferenceScreen android:title="AOCP" />
+        <PreferenceScreen android:title="App Dev" android:summary="DC07" />
+        <PreferenceCategory android:title="Warning">
+            <PreferenceScreen android:title="Notice" android:summary="AOCP Is A ROM intially developed by DC07 for SGY.No One has rights to use the rom or any part of the rom without any legal permission of me.You are free to port this rom to any other device,but before that just inform me or shoot a pm....." />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:enabled="true" android:title="Credits">
+        <PreferenceScreen android:data="http://forum.xda-developers.com" android:title="XDA" android:summary="All Knowledge Gained from Here" />
+        <PreferenceScreen android:data="http://google.com" android:title="Google" android:summary="Android Basics" />
+        <PreferenceScreen android:title="iamareebjamal" />
+        <PreferenceScreen android:title="Blaze" />
+        <PreferenceScreen android:title="Lalit Patil" />
+        <PreferenceScreen android:title="CharsiBabu" />
+        <PreferenceScreen android:title="Shyam Lohar" />
+        <PreferenceScreen android:title="My XDA/FB/Whatsapp Mates" />
+    </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
